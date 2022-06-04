@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/background.png);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+main {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #f3b210c2;
+}
+
+section {
+    display: block;
+    max-width: 700px;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.link {
+    text-align: right;
+}
+
+.news {
+    background-color: #80808079;
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+.about {
+    border: 2px solid black;
+    border-radius: 20px 0;
+    margin-bottom: 30px;
+}
+
+.contacts {
+    border: 2px dashed black;
+    border-radius: 20px 0;
+}
