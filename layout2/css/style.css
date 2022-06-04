@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: #fffcfce9;
+}
+
+h2 {
+    text-transform: capitalize;
+    color:black;
+}
+
+/* не получается выровнять по вертикали */
+main {
+    margin: 250px 90px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section {
+    display: inline-block;
+    border: 1px solid #cfcaca;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    color: #838080;
+    margin-right: 30px;
+    padding: 10px 40px;
+}
