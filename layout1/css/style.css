@@ -1,12 +1,14 @@
 body {
     background-image: url(../images/background.png);
+    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+    padding: 0;
+    margin: 0;
 }
 
-main {
+.container {
     max-width: 700px;
-    width: 100%;
     margin: auto;
 }
 
@@ -21,7 +23,6 @@ h2 {
 
 section {
     display: block;
-    max-width: 700px;
     padding: 30px;
 }
 
