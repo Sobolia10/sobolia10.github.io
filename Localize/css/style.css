@@ -1,0 +1,155 @@
+/* Общее */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	background-color: #E5E5E5;
+	width: 1440px;
+	color: #30233D;
+	margin: 0;
+	padding: 0;
+}
+
+/* Заголовки */
+h1,
+h2,
+h3 {
+	color: #003395;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 32px;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 54px;
+	line-height: 63px;
+	padding: 121px 0 24px 0;
+}
+
+h3 {
+	color: #fff;
+	background: #24B0FF;
+}
+
+/* Шапка */
+header {
+	background-image: url(../images/headline.png);
+	background-size: cover;
+	margin-bottom: 55px;
+}
+
+header p {
+	margin-bottom: 137px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #000;
+}
+
+/* Навигация */
+.menu {
+	width: 1440px;
+	background-color: #003395;
+	height: 74px;
+}
+
+.menu__item {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 37px;
+	letter-spacing: 2px;
+	padding: 19px 0 26px 57px;
+	max-height: 77px;
+}
+
+.menu__item:first-of-type {
+	padding-left: 149px;
+}
+
+/* Основное меню */
+.container {
+	max-width: 1146px;
+	margin: auto;
+	position: relative;
+}
+
+section {
+	width: 754px;
+	float: left;
+}
+
+.section__item p {
+	padding: 18px 0 39px 0;
+}
+
+.section__item:last-of-type {
+	margin-bottom: 28px;
+}
+
+h2 {
+	padding: 13px 0 12px 0;
+	border-top: 2px solid #003395;
+	border-bottom: 2px solid #003395;
+}
+
+article {
+	display: inline-block;
+}
+
+/* Боковое меню */
+.sidebar {
+	float: right;
+	width: 362px;
+	position: absolute;
+	right: 0;
+	font-size: 16.2px;
+	line-height: 26px;
+}
+
+.sidebar__news,
+.sidebar__links {
+	border: 1px inset rgba(0, 51, 149, 1);
+}
+
+.sidebar__news {
+	margin-bottom: 56px;
+}
+
+.sidebar p {
+	padding: 0 53px 26px 18px;
+}
+
+.links__item {
+	/* font-size: 16.2px; */
+	line-height: 26px;
+	text-decoration-line: underline;
+	color: #30233D;
+	padding: 0 64px 10.6px 19px;
+}
+
+h3 {
+	padding: 14px 17px 13px 17px;
+	margin: 19px 19px 9px 19px;
+}
+
+.sidebar__links h3 {
+	padding: 18px 17px 15px 16px;
+	margin-top: 21px 0 0px 0;
+}
+
+.sidebar__links li {
+	margin-bottom: 6px;
+}
+
+
+/* Подвал */
+.copyright__nav {
+	font-size: 11.7px;
+	line-height: 19px;
+	text-align: right;
+	color: #FCFCFC;
+	background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+	padding: 41px 147px 86px 0;
+}
