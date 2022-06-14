@@ -5,16 +5,13 @@ body {
 	font-size: 24px;
 	line-height: 28px;
 	background-color: #E5E5E5;
-	width: 1440px;
 	color: #30233D;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
 /* Заголовки */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
 	color: #003395;
 	font-weight: 700;
 	font-size: 27px;
@@ -37,7 +34,6 @@ h3 {
 header {
 	background-image: url(../images/headline.png);
 	background-size: cover;
-	margin-bottom: 55px;
 }
 
 header p {
@@ -49,7 +45,6 @@ header p {
 
 /* Навигация */
 .menu {
-	width: 1440px;
 	background-color: #003395;
 	height: 74px;
 }
@@ -64,14 +59,14 @@ header p {
 	max-height: 77px;
 }
 
-.menu__item:first-of-type {
-	padding-left: 149px;
+.menu__item-home {
+	padding-left: 0;
 }
 
 /* Основное меню */
 .container {
 	max-width: 1146px;
-	margin: auto;
+	margin: 0 auto;
 	position: relative;
 }
 
@@ -81,21 +76,18 @@ section {
 }
 
 .section__item p {
-	padding: 18px 0 39px 0;
-}
-
-.section__item:last-of-type {
-	margin-bottom: 28px;
+	padding: 13px 0 39px 0;
 }
 
 h2 {
-	padding: 13px 0 12px 0;
+	padding: 17px 0 9px 0;
 	border-top: 2px solid #003395;
 	border-bottom: 2px solid #003395;
 }
 
 article {
 	display: inline-block;
+	margin-top: 55px;
 }
 
 /* Боковое меню */
@@ -126,7 +118,7 @@ article {
 	line-height: 26px;
 	text-decoration-line: underline;
 	color: #30233D;
-	padding: 0 64px 10.6px 19px;
+	padding-left: 19px;
 }
 
 h3 {
@@ -136,7 +128,6 @@ h3 {
 
 .sidebar__links h3 {
 	padding: 18px 17px 15px 16px;
-	margin-top: 21px 0 0px 0;
 }
 
 .sidebar__links li {
