@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #4a99d3;
+    margin: 0 auto;
+    height: 1495px;
+}
+
+header {
+    margin-bottom: 108px;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 56px 0 43px 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 36px 0;
+}
+
+.img-left-big {
+    position: absolute;
+    top: 19%;
+    left: 10%;
+}
+
+.img-left-small {
+    position: absolute;
+    top: 53%;
+    right: 59%;
+}
+
+.img-right {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+.container {
+    width: 695px;
+    margin: 0 auto;
+}
+
+main {
+    width: 799px;
+    background-color: #213f64;
+    margin: 0 auto;
+    padding: 0 auto;
+    vertical-align: middle;
+}
+
+.container-img {
+    position: absolute;
+    top: 5%;
+    right: 14%;
+}
+
+.container-icons {
+    position: relative;
+    right: 13%;
+}
+
+.container__desc-1 p:not(:last-of-type) {
+    margin-bottom: 26px;
+}
+
+.container__desc-2 p:not(:last-of-type) {
+    margin-bottom: 29px;
+}
+
+.container__desc-2 {
+    margin-bottom: 154px;
+}
+
+.container__pics {
+    display: inline-block;
+    margin-bottom: 168px;
+}
+
+div img:not(:last-of-type) {
+    padding-right: 15px;
+}
+
+.footer-img {
+    /* width: 100%; */
+    background-image: url(../images/grass.png);
+    position: relative;
+    bottom: 131px;
+    /* height: 100%; */
+}
+
+/* ПЕРЕНОС текста */
+/* селектор для выбора картинок */
+/* футер без классов  */
+/*   background-image: url(../grass.png) не проходит */
+/* не получается найти путь back-image css */
