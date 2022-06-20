@@ -4,14 +4,16 @@ body {
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 28px;
-	background-color: #E5E5E5;
+	background-color: #FFFFFF;
 	color: #30233D;
 	margin: 0 auto;
 	padding: 0;
 }
 
 /* Заголовки */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	color: #003395;
 	font-weight: 700;
 	font-size: 27px;
@@ -71,8 +73,8 @@ header p {
 }
 
 section {
+	display: inline-block;
 	width: 754px;
-	float: left;
 }
 
 .section__item p {
@@ -92,10 +94,11 @@ article {
 
 /* Боковое меню */
 .sidebar {
-	float: right;
+	display: inline-block;
 	width: 362px;
 	position: absolute;
 	right: 0;
+	top: 54px;
 	font-size: 16.2px;
 	line-height: 26px;
 }
