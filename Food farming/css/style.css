@@ -1,119 +1,68 @@
-body {
-    background-color: #FFFAF3;
-}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Food farming</title>
+  </head>
 
-li.menu__item {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  <body>
+    <header>
+      <div class="menu-box">
+        <a href="#" class="logo"></a>
+        <nav class="menu">
+          <ul>
+            <li class="menu__item menu__item-selected">
+              <a href="#" class="menu__link"></a>Home
+            </li>
+            <li class="menu__item"><a href="#" class="menu__link"></a>About</li>
+            <li class="menu__item">
+              <a href="#" class="menu__link"></a>Products
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-.logo {
-    margin-right: 70px;
-    vertical-align: middle;
-    text-align: left;
-}
+    <main>
+      <div class="container">
+        <div class="container__title">
+          <h1>
+            Food
+            <img
+              class="container__pic"
+              src="images/logo.svg"
+              alt="Логотип Food farming"
+            />
+          </h1>
+          <h2>farming</h2>
+          <!-- <img class="container__img" src="images/vector.svg" alt="Оформление Food farming"> -->
+          <p>
+            Food Farming is proud of our past and excited about our future. We
+            strive to continue being one of India and New Zealand's great food
+            companies, offering quality fruits and vegetable.
+          </p>
+          <a href="#" class="button">Read more</a>
+        </div>
+      </div>
 
-header {
-    margin-left: 176px;
-    max-width: 470px;
-    border-bottom: 1px solid #C08D5D;
-    padding: 43px 0;
-    margin-bottom: 125px;
-}
+      <div class="container-food"></div>
+      <div class="container-icon">
+        <a class="icon" href="#"
+          ><img src="images/mouse.svg" alt="Иконка мыши"
+        /></a>
+      </div>
+    </main>
 
-.menu {
-    display: inline-block;
-    vertical-align: middle;
-    width: 320px;
-}
-
-.menu__item {
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.menu__item-selected {
-    color: #C08D5D;
-}
-
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding-left: 176px;
-    display: inline-block;
-    position: absolute;
-}
-
-.container__title h1,
-.container__title h2 {
-    font-family: 'Yeseva One';
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 81px;
-    letter-spacing: 0.06em;
-    color: #3F4042;
-}
-
-.container__title h2 {
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    font-size: 70px;
-}
-
-.container__img {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-bottom: 21px;
-}
-
-.container__title {
-    width: 535px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.container__title p {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: 0.06em;
-    color: #3F4042;
-    margin-bottom: 72px;
-}
-
-.button {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    text-transform: capitalize;
-    display: inline-block;
-    border: 2px solid #C08D5D;
-    background-color: #FFFAF3;
-    color: rgba(63, 64, 66, 1);
-    padding-left: 12px;
-}
-
-.button::after {
-    display: inline-block;
-    content: "\21C0";
-    color: #fff;
-    border-left: 2px solid #C08D5D;
-    background-color: #C08D5D;
-    padding: 16px 19px 13px 20px;
-    margin-left: 9px;
-}
-
-.container-food {
-    max-width: 1290px;
-    position: relative;
-    width: 660px;
-    min-height: 100vh; 
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-    left: 305px;
-    bottom: 270px;
-    background-color: #FFFAF3;
-}
+    <footer></footer>
+  </body>
+</html>
