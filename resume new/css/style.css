@@ -1,0 +1,175 @@
+body {
+    background-image: url(../images/res.jpeg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: #f4f4f4;
+    width: 860px;
+    font-size: 14px;
+    color: #403E3F;
+    line-height: 20px;
+    margin: 5% 20%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    background-color: #f7d91f;
+    font-size: 20px;
+    letter-spacing: 0.1cm;
+    padding: 10px 0 10px 5px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Навигация */
+nav {
+    background-color: #3C3B39;
+    opacity: 70%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav img {
+    width: 50px;
+}
+
+.menu-socials {
+    width: 860px;
+    margin-left: 291px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 3px 0;
+}
+
+.menu-item:not(:last-child) {
+    width: 198px;
+}
+
+nav a {
+    color: #f4f4f4;
+    display: block;
+}
+
+nav a:hover {
+    color: #f7d91f;
+}
+
+nav a:focus:active {
+    font-weight: 700;
+}
+
+nav a::after {
+    content: "\232A";
+}
+
+/* Основной контент */
+.content {
+    width: 59%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content-title p {
+    margin-bottom: 35px;
+}
+
+.content-work,
+.content-education {
+    margin-bottom: 35px;
+}
+
+.content-work,
+.content-education:not(:first-child) {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+}
+
+/* Sidebar */
+aside {
+    display: inline-block;
+}
+
+.portfolio-section {
+    background-image: url(../images/myresume.jpg);
+    height: 48vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+aside ul {
+    background: linear-gradient(to right, #555354, #080a0a);
+    color: #f4f4f4;
+    padding: 30px 35px;
+    line-height: 30px;
+}
+
+/* Форма */
+
+#forms {
+    display: none;
+    position: absolute;
+    background-color: #3C3B39;
+    top: 130%;
+    left: 30%;
+    width: 550px;
+    height: 650px;
+}
+
+#forms-post {
+    text-align: left;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 70px;
+}
+
+#forms:target {
+    display: block;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+label {
+    margin-right: 300px;
+}
+
+textarea {
+    margin-bottom: 30px;
+}
