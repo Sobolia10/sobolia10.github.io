@@ -23,20 +23,20 @@ h2 {
 
 .img-left-big {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 20px;
+    left: -170px;
 }
 
 .img-left-small {
     position: absolute;
-    top: 53%;
-    left: 30%;
+    top: 300px;
+    left: 60px;
 }
 
 .img-right {
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 240px;
+    left: 450px;
 }
 
 .container {
@@ -47,7 +47,6 @@ h2 {
 main {
     width: 799px;
     background-color: #213f64;
-    opacity: 90%;
     margin: 0 auto;
     padding: 0 auto;
     vertical-align: middle;
@@ -88,9 +87,10 @@ div img:not(:last-of-type) {
 
 footer {
     background-image: url(../images/grass.png);
-    position: absolute;
+    position: fixed;
     height: 125px;
     background-repeat: repeat;
     width: 100%;
-    top: 188%;
+    left: 0;
+    bottom: 0;
 }
